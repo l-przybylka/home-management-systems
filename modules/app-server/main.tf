@@ -1,5 +1,5 @@
 resource "aws_instance" "web" {
-  count                       = 2
+  count                       = length(pub_subnets)
   ami                         = "ami-0505148b3591e4c07"
   instance_type               = "t2.micro"
   associate_public_ip_address = true
