@@ -1,5 +1,5 @@
 resource "aws_lb_target_group" "lights" {
-  name             = "app-target-group"
+  name             = "lights-target-group"
   port             = 3000
   protocol         = "HTTP"
   protocol_version = "HTTP1"

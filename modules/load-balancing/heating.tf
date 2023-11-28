@@ -1,5 +1,5 @@
 resource "aws_lb_target_group" "heating" {
-  name             = "app-target-group"
+  name             = "heating-target-group"
   port             = 3000
   protocol         = "HTTP"
   protocol_version = "HTTP1"

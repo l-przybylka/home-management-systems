@@ -1,5 +1,5 @@
 resource "aws_lb_target_group" "status" {
-  name             = "app-target-group"
+  name             = "status-target-group"
   port             = 3000
   protocol         = "HTTP"
   protocol_version = "HTTP1"
